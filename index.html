@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="./index.css">
+        <title>Art</title>
+    </head>
+    <body>
+        <header>
+            <div class="d-flex flex-column align-items-center gap-3 py-5 border-style">
+                <div class="d-flex align-items-center gap-3">
+                    <img id="header__logo" src="./assets/icons/logo.svg" alt="logo">
+                    <h1>Art</h1>
+                </div>
+                <p class="text-secondary">Exibições de arte urbana</p>
+            </div>
+            <nav class="d-flex justify-content-center">
+                <ul class="d-flex flex-wrap py-5" id="header__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Artistas</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container" id="hero">
+            <img src="./assets/imgs/1.jpg" alt="hero image">
+            <div class="p-5 my-4 m-md-5">
+                <h2>Arte no muro de Davi</h2>
+                <p>Realizada em 20/05/2021</p>
+                <a class="btn" href="#">Detalhes</a>
+            </div>
+        </section>
+        <main>
+            <article class="container" id="article">
+                <h2 class="text-center py-5">Artes em Destaque</h2>
+                <div class="row gx-md-5" id="article-cards">
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/imgs/2.jpg" alt="image-1">
+                        <div class="py-4">
+                            <h3>Obra de Arthur</h3>
+                            <p>Realizado em 20/02/14</p>
+                            <a class="btn" href="#">Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/imgs/3.jpg" alt="image-2">
+                        <div class="py-4">
+                            <h3>Grafite Av. Paulista</h3>
+                            <p>Realizado em 14/09/18</p>
+                            <a class="btn" href="#">Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/imgs/4.jpg" alt="image-3">
+                        <div class="py-4">
+                            <h3>Arte em conjunto do Metrô</h3>
+                            <p>Realizado em 14/09/16</p>
+                            <a class="btn"href="#">Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/imgs/5.jpg" alt="image-4">
+                        <div class="py-4">
+                            <h3>Obra de Paulo</h3>
+                            <p>Realizado em 14/05/16</p>
+                            <a class="btn" href="#">Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/imgs/6.jpg" alt="image-5">
+                        <div class="py-4">
+                            <h3>Grafite no centro da cidade</h3>
+                            <p>Realizado em 14/09/17</p>
+                            <a class="btn" href="#">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer class="container text-center py-5 border-style">
+            <p class="text-secondary">Nos encontre nas redes sociais</p>
+            <div class="row g-3 py-4" id="footer__redes" >
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+            <p class="text-secondary">Art &copy; 2021</p>
+        </footer>
+    </body>
+</html>
